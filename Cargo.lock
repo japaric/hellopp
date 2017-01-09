@@ -1,0 +1,14 @@
+[root]
+name = "hellopp"
+version = "0.1.0"
+dependencies = [
+ "gcc 0.3.41 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "gcc"
+version = "0.3.41"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[metadata]
+"checksum gcc 0.3.41 (registry+https://github.com/rust-lang/crates.io-index)" = "3689e1982a563af74960ae3a4758aa632bb8fd984cfc3cc3b60ee6109477ab6e"

@@ -1,0 +1,10 @@
+[package]
+authors = ["Jorge Aparicio <japaricious@gmail.com>"]
+build = "build.rs"
+name = "hellopp"
+version = "0.1.0"
+
+[build-dependencies]
+gcc = "0.3.41"
+
+[dependencies]
