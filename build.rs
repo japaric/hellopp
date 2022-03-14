@@ -1,9 +1,9 @@
-extern crate gcc;
+extern crate cc;
 
-use gcc::Config;
+use cc::Build;
 
 fn main() {
-    Config::new()
+    Build::new()
         .cpp(true)
         .file("hellopp.cc")
         .compile("libhellopp.a");
